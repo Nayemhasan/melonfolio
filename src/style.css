@@ -1,0 +1,49 @@
+:root{
+--purple: #2F192E;
+--purple-light: #30192d; 
+--dark-blue: #012677;
+--blue: #5c65c0;
+--skyblue:#00b4fc;
+--light-blue: #005bc5;
+--dark-pink: #f64c57; 
+--dark-magenta: #e21b5a;
+--light-green: #61e2c2;
+--light-purple: #b35da4;
+
+}
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    font-family: poppins,sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg, var(--purple), var(--purple-light));
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.profile-card{
+    background:#111;
+    width: 400px;
+    padding: 3rem;
+    border-radius: 10px;
+    min-height: 400px;
+    position: relative;
+    color: white;
+    margin: 15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+     
+}
