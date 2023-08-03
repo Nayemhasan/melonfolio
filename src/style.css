@@ -44,6 +44,14 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-     
+    flex-direction: column;    
+}
+
+.profile-card .profile-pic{
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.profile-card .profile-pic img{
+    border-radius: 10px;
 }
