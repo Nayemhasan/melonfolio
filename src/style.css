@@ -55,3 +55,18 @@ body{
 .profile-card .profile-pic img{
     border-radius: 10px;
 }
+
+.profile-card .profile-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.profile-details .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
