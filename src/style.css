@@ -141,3 +141,12 @@ border: 1px solid rgba(255, 255, 255, 0.1);
 .row .content span{
     font-size: 12px;
 }
+
+.download-btn{
+    background:linear-gradient(45deg, #d11521, #8b042f);
+    color: #fff;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    border: none;
+}
