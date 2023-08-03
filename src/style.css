@@ -177,3 +177,7 @@ border: 1px solid rgba(255, 255, 255, 0.1);
     background: linear-gradient(45deg, #f64c57, #e21b5a);
 }
 
+.about p{
+    color: #555;
+    margin: 1.5rem 0;
+}
