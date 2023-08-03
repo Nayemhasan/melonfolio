@@ -167,3 +167,13 @@ border: 1px solid rgba(255, 255, 255, 0.1);
     font-size: 3.5rem;
 }
 
+.about h1::after{
+    position: absolute;
+    content: "";
+    top:50%;
+    right: -50%;
+    width: 45%;
+    height: 3px;
+    background: linear-gradient(45deg,);
+}
+
