@@ -150,3 +150,12 @@ border: 1px solid rgba(255, 255, 255, 0.1);
     margin-top: 1.5rem;
     border: none;
 }
+
+/**about_section**/
+.about{
+    background-color: #111;
+    max-width: 800px;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+
+}
