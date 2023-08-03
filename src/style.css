@@ -81,3 +81,63 @@ body{
    padding: 5px 10px;
    margin: 8px;
 }
+
+.profile-details .intro .social{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.profile-details .intro .social i{
+    color: #ddd;
+    font-size: 16px;
+    background-color: #222;
+    margin: 5px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align:center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.profile-details .intro .social i:hover{
+    transform: scale(1.2);
+    border:1px solid rgba(255,255,255,0.3);
+}
+.profile-details .contact-info{
+    background-color: #242424;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+   
+}
+
+.profile-details .contact-info .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.contact-info .row .icon{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #111;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.row .icon:hover{
+transform: scale(1.2);
+border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.row .content{
+    min-width: 70%;
+}
+.row .content span{
+    font-size: 12px;
+}
