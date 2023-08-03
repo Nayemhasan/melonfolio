@@ -70,3 +70,14 @@ body{
     align-items: center;
     flex-direction: column;
 }
+
+.profile-details .intro h2{
+    margin-top: 20px;
+}
+.profile-details .intro h4{
+   background: #1d1d11;
+   font-weight: 400;
+   border-radius: 4px;
+   padding: 5px 10px;
+   margin: 8px;
+}
