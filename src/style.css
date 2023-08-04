@@ -50,9 +50,13 @@ body{
 .profile-card .profile-pic{
     margin-top: 15px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .profile-card .profile-pic img{
+    width: 70%;
     border-radius: 10px;
 }
 
