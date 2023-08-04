@@ -177,6 +177,11 @@ border: 1px solid rgba(255, 255, 255, 0.1);
     background: linear-gradient(45deg, #f64c57, #e21b5a);
 }
 
+.about h2{
+    color: #f2f2f2;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
 .about p{
     color: #555;
     margin: 1.5rem 0;
@@ -184,5 +189,59 @@ border: 1px solid rgba(255, 255, 255, 0.1);
 
 .about .work{
     display: grid;
-    grid-template-columns: ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.about .aboutbox{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid #333;
+    padding: 1rem;
+    margin: 1rem;
+}
+ 
+.work .workbox{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid #333;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.work .workbox .desc{
+    width: 75%;
+    color: #555;
+}
+
+.work .workbox .desc h3{
+    color: #f2f2f2;
+    margin-bottom: 3px;
+}
+
+.work .workbox .desc p{
+    margin:0px;
+} 
+
+/***responsive***/
+@media(max-width:768px)
+{
+    .about{
+        width: 100;
+        max-width: 400px;
+        padding: 1rem;
+        margin: 1rem;
+
+    }
+
+    .about h1{
+        font-size: 2.2rem;
+
+    }
+    .about .work{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,auto);
+    }
 }
