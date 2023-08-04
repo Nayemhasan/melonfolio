@@ -1,5 +1,5 @@
 # melonfolio
+- portfolio of NayemHasan/Watermelon
 - made with pure HTML and CSS only
-- its live here🔻
- portfolio of NayemHasan/Watermelon
-https://nayemhasan.github.io/melonfolio/
+- its live [here](https://nayemhasan.github.io/melonfolio/)
+
